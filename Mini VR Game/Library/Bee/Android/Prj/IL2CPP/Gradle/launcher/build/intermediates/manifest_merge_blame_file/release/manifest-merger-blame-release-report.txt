@@ -1,0 +1,211 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.UnityTechnologies.com.unity.template.urpblank"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="0.1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="31"
+9-->/Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="34" />
+10-->/Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml
+11
+12    <supports-screens
+12-->/Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:4:3-163
+13        android:anyDensity="true"
+13-->/Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:4:135-160
+14        android:largeScreens="true"
+14-->/Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:4:78-105
+15        android:normalScreens="true"
+15-->/Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:4:49-77
+16        android:smallScreens="true"
+16-->/Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:4:21-48
+17        android:xlargeScreens="true" />
+17-->/Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:4:106-134
+18
+19    <supports-gl-texture android:name="GL_KHR_texture_compression_astc_ldr" />
+19-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+19-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:26-76
+20
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-67
+21-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-64
+22
+23    <uses-feature android:glEsVersion="0x00030000" />
+23-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:5-54
+23-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:19-51
+24    <uses-feature
+24-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:5-18:36
+25        android:name="android.hardware.vulkan.version"
+25-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-55
+26        android:required="false" />
+26-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-33
+27    <uses-feature
+27-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:5-21:36
+28        android:name="android.hardware.touchscreen"
+28-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-52
+29        android:required="false" />
+29-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-33
+30    <uses-feature
+30-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:5-24:36
+31        android:name="android.hardware.touchscreen.multitouch"
+31-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:9-63
+32        android:required="false" />
+32-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:9-33
+33    <uses-feature
+33-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:5-27:36
+34        android:name="android.hardware.touchscreen.multitouch.distinct"
+34-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:9-72
+35        android:required="false" />
+35-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:9-33
+36    <uses-feature
+36-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:5-31:31
+37        android:name="android.hardware.vr.headtracking"
+37-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:9-56
+38        android:required="true"
+38-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:9-32
+39        android:version="1" />
+39-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:31:9-28
+40
+41    <application
+41-->/Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:3-83
+42        android:allowBackup="false"
+42-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-36
+43        android:extractNativeLibs="true"
+43-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:35:9-41
+44        android:icon="@mipmap/app_icon"
+44-->/Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:49-80
+45        android:label="@string/app_name"
+45-->/Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:16-48
+46        android:networkSecurityConfig="@xml/network_sec_config" >
+46-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:38:9-64
+47        <meta-data
+47-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:39:9-41:33
+48            android:name="unity.splash-mode"
+48-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:40:13-45
+49            android:value="0" />
+49-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-30
+50        <meta-data
+50-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:42:9-44:36
+51            android:name="unity.splash-enable"
+51-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-47
+52            android:value="True" />
+52-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-33
+53        <meta-data
+53-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:45:9-47:36
+54            android:name="unity.launch-fullscreen"
+54-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-51
+55            android:value="True" />
+55-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-33
+56        <meta-data
+56-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:48:9-50:36
+57            android:name="unity.render-outside-safearea"
+57-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:49:13-57
+58            android:value="True" />
+58-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:50:13-33
+59        <meta-data
+59-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:51:9-53:50
+60            android:name="notch.config"
+60-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:52:13-40
+61            android:value="portrait|landscape" />
+61-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:53:13-47
+62        <meta-data
+62-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:54:9-56:36
+63            android:name="unity.auto-report-fully-drawn"
+63-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:55:13-57
+64            android:value="true" />
+64-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:56:13-33
+65
+66        <activity
+66-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:58:9-84:20
+67            android:name="com.unity3d.player.UnityPlayerActivity"
+67-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:59:13-66
+68            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode|density"
+68-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:60:13-122
+69            android:exported="true"
+69-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:61:13-36
+70            android:hardwareAccelerated="false"
+70-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:62:13-48
+71            android:launchMode="singleTask"
+71-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:63:13-44
+72            android:resizeableActivity="false"
+72-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:64:13-47
+73            android:screenOrientation="landscape"
+73-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:65:13-50
+74            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+74-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:66:13-77
+75            <intent-filter>
+75-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:67:13-73:29
+76                <category android:name="android.intent.category.LAUNCHER" />
+76-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:68:17-77
+76-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:68:27-74
+77
+78                <action android:name="android.intent.action.MAIN" />
+78-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:70:17-69
+78-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:70:25-66
+79
+80                <category android:name="com.oculus.intent.category.VR" />
+80-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:72:17-74
+80-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:72:27-71
+81            </intent-filter>
+82
+83            <meta-data
+83-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:75:13-77:40
+84                android:name="unityplayer.UnityActivity"
+84-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:76:17-57
+85                android:value="true" />
+85-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:77:17-37
+86            <meta-data
+86-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:78:13-80:40
+87                android:name="notch_support"
+87-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:79:17-45
+88                android:value="true" />
+88-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:80:17-37
+89            <meta-data
+89-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:81:13-83:40
+90                android:name="com.oculus.vr.focusaware"
+90-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:82:17-56
+91                android:value="true" />
+91-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:83:17-37
+92        </activity>
+93
+94        <meta-data
+94-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:86:9-88:39
+95            android:name="com.samsung.android.vr.application.mode"
+95-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:87:13-67
+96            android:value="vr_only" />
+96-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:88:13-36
+97        <meta-data
+97-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:89:9-91:37
+98            android:name="com.unity.xr.oculus.LowOverheadMode"
+98-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:90:13-63
+99            android:value="false" />
+99-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:91:13-34
+100        <meta-data
+100-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:92:9-94:37
+101            android:name="com.unity.xr.oculus.LateLatching"
+101-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:93:13-60
+102            android:value="false" />
+102-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:94:13-34
+103        <meta-data
+103-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:95:9-97:37
+104            android:name="com.unity.xr.oculus.LateLatchingDebug"
+104-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:96:13-65
+105            android:value="false" />
+105-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:97:13-34
+106        <meta-data
+106-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:98:9-100:47
+107            android:name="com.oculus.supportedDevices"
+107-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:99:13-55
+108            android:value="quest2|questpro" />
+108-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:100:13-44
+109        <meta-data
+109-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:101:9-103:37
+110            android:name="com.oculus.ossplash.background"
+110-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:102:13-58
+111            android:value="black" />
+111-->[:unityLibrary] /Users/harryho/Desktop/SW Developement/4. Unity/Metaquest Practice/Mini VR Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:103:13-34
+112    </application>
+113
+114</manifest>
